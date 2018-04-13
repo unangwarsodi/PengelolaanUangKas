@@ -1,0 +1,225 @@
+body{
+        background:#FFFFFF;
+        font:14px "Calibri";
+        color: #414A5C;
+        text-align: center;
+        margin: 0px auto;
+    }
+    #register{
+        background:#FFFFFF;
+        font:14px "Calibri";
+        width:40%;
+        height:auto;
+        padding: 10px;
+        text-align: center;
+        margin-top:50px;
+        border-radius:10px 10px 10px 10px;
+        box-shadow: 0px 0px 10px 0px #D0D0D0;
+    }
+    #login{
+        background:#FFFFFF;
+        color: #272822;
+        font:14px "Calibri";
+        width:280px;
+        height:auto;
+        padding: 10px;
+        text-align: center;
+        margin-top:100px;
+        border-radius:10px 10px 10px 10px;
+        box-shadow: 0px 0px 10px 0px #D0D0D0;
+    }
+    #navigasi{
+        font:14px "Calibri";
+        width:20%;
+        margin-top: 4%;
+        text-align: center;
+        height:auto;
+        margin-right: 2%;
+        margin-left: 2%;
+        display: inline-table;
+        border-color: #D0D0D0;
+        border-width: 0px; 
+        border-collapse: collapse;
+    }
+    #navigasi th{
+        font:18px "Calibri";
+        padding: 10px;
+        background: #2BBBAD;
+        color:#FFFFFF;
+        border-radius: 5px 5px 0px 0px;
+    }
+    #navigasi td{
+        font:18px "Calibri";
+        padding: 10px;
+        background: #FFFFFF;
+        color:#4B4B4B;
+    }
+    #navigasi td:hover{
+        background: #D0D0D0;
+        color:#FFFFFF;
+    }
+    #content{
+        background:#FFFFFF;
+        font:14px "Calibri";
+        width:68%;
+        float:right;
+        height:auto;
+        padding: 18px;
+        text-align: left;
+        margin-top:4%;
+        margin-right: 3%;
+        margin-bottom: 2%;
+        border-radius:6px 6px 6px 6px;
+        box-shadow: 1px 1px 3px 1px #D0D0D0;
+    }
+    input, textarea, select{
+        width:260px;
+        height:40px;
+        padding:10px;
+        margin:10px 0px 10px 0px;
+        font:14px "Arial";
+        color: #585858;
+    }
+    button{
+        width:260px;
+        height:40px;
+        margin:10px 0px 10px 0px;
+        font: 17px "Calibri";
+        text-align: center;
+        background: #2BBBAD;
+        color: #FFFFFF;
+        border-radius: 2px 2px 2px 2px;
+        border:1px solid transparent;
+    }
+    a{
+        text-decoration: none;
+        color: #4B4B4B;
+    }
+    #tombol-kecil{
+        width: auto;
+        height: auto;
+        padding: 5px;
+    }
+    #tombol-kecil-edit{
+        width: auto;
+        height: auto;
+        padding: 5px;
+        background-color: #FF7800;
+    }
+    #tombol-kecil-hapus{
+        width: auto;
+        height: auto;
+        padding: 5px;
+        background-color: #DD4E42;
+    }
+    #tombol-sedang-kanan{
+        width: 15%;
+        float: right;
+    }
+    #input-kecil{
+        width: 150px;
+        height: 30px;
+    }
+    #kanan{
+        float:right;
+    }
+    #tengah{
+        float: inline-end;
+    }
+    button:hover{
+        box-shadow: 0px 0px 10px 0px #414141;
+    }
+    #tabel{
+        font: 17px "Calibri";;
+        border-color: #9A9A9A;
+        text-align: center;
+    }
+    #tabel th{
+        padding: 5px;
+    }
+    #tabel td{
+        padding: 5px;
+    }
+    #tabel tr:nth-child(even){
+        background-color: #f2f2f2;
+    }
+    label{
+        font:30px "Calibri";
+        color: #7D7D7D;
+
+    }
+    * {margin:0; padding:0;}
+ 
+.menu-wrap {
+    background-color:#414A5C; 
+    height:66px; 
+    line-height:66px; 
+    position:relative;
+    width:100%;
+    margin:auto;
+    margin-top:0px;
+    font-size: 14px;
+}
+ 
+.menu-wrap ul {
+    list-style:none;
+     width: 98.1%;
+}
+ 
+.menu-wrap ul li a {
+    float:right; 
+    width:150px; 
+    display:block; 
+    text-align:center; 
+    color:#FFF; 
+    text-decoration:none; 
+    text-transform:uppercase;
+}
+ 
+.menu-wrap ul li a:hover {
+    background-color:#666; 
+    display:block;
+}
+ 
+.menu-wrap ul li:hover ul {
+    display:block;
+}
+ 
+.menu-wrap ul ul {
+    display:none; 
+    list-style:none; 
+    position:absolute; 
+    background-color:#53bd84;
+    right:1.9%; 
+    top:66px; 
+    width:190px;
+    float:right;   
+    text-align:center; 
+    color:#FFF; 
+    text-decoration:none; 
+    text-transform:uppercase;
+}
+ 
+.menu-wrap ul ul li a {
+    float:right; 
+    display:block; 
+    padding-left:30px; 
+    text-align:left; 
+    width:160px;
+}
+ 
+.menu-wrap ul ul li a:hover {
+    color:#fff;
+}
+.pagging{
+    width:3%;
+    height:auto;
+    margin:10px 0px 10px 0px;
+    font: 17px "Calibri" white;
+    text-align: center;
+    background: #2BBBAD;
+    font-color: #FFFFFF;
+    border-radius: 3px 3px 3px 3px;
+    border:1px solid transparent;
+    display: inline-table;
+}
